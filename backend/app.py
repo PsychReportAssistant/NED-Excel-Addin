@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import pandas as pd
-from utils import clean_dataframe
+from backend.utils import clean_dataframe
 
 app = FastAPI(title="N.E.D. Excel Cleaner API")
 
